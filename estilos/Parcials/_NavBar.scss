@@ -1,14 +1,7 @@
-/*
-.navbar {
-    height: 90px;
-    max-height: 100%;
-    overflow: hidden;
-}
-*/
+@import "./Mixins";
 
 .navbar-brand {
     & img {
-        max-width: 240px;
-        width: 100%;
+        @include widthSizes (240px, 100%);
     }
 }

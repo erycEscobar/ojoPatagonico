@@ -18,29 +18,22 @@
   height: 100%;
 }
 
-/*
-.navbar {
-    height: 90px;
-    max-height: 100%;
-    overflow: hidden;
-}
-*/
 .navbar-brand img {
   max-width: 240px;
   width: 100%;
 }
 
 .footFormat {
-  padding: 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -156,6 +149,19 @@
   cursor: pointer;
 }
 
+.flexColCent, .mainTarifas, .mainContacto, .tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .GalleryMain {
   margin: 1em;
   background-color: rgba(44, 44, 44, 0.5);
@@ -193,16 +199,6 @@
   padding: 15%;
   margin: auto;
   background-color: rgba(44, 44, 44, 0.5);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .mainTarifas p {
@@ -233,19 +229,6 @@
   }
 }
 
-.mainContacto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .mainContacto h5 {
   font-size: xx-large;
   padding: 1em;
@@ -263,19 +246,6 @@
           justify-content: space-evenly;
   background-color: rgba(44, 44, 44, 0.5);
   padding: 3% 0;
-}
-
-.tarjeta {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .tarjeta p {
@@ -326,5 +296,9 @@
           box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+}
+
+header h1 {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

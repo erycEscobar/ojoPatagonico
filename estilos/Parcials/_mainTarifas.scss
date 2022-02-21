@@ -1,11 +1,9 @@
 
 .mainTarifas {
+    @extend .flexColCent;
     padding: 15%;
     margin: auto;
     background-color: rgba($color: #2c2c2c, $alpha: 0.5);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     & p {
         @extend .mainText;
         text-align: center;

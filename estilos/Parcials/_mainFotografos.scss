@@ -14,8 +14,7 @@
 }
 
 .fotografos {
-    max-width: 1200px;
-    width: 100%;
+    @include widthSizes (1200px, 100%);
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -29,8 +28,7 @@
         align-items: center;
         font-size: medium;
         text-align: justify;
-        max-width: 340px;
-        width: 100%;
+        @include widthSizes (340px, 100%);
         @extend .mainText;
     }
 }
