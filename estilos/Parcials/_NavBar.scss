@@ -1,0 +1,14 @@
+/*
+.navbar {
+    height: 90px;
+    max-height: 100%;
+    overflow: hidden;
+}
+*/
+
+.navbar-brand {
+    & img {
+        max-width: 240px;
+        width: 100%;
+    }
+}
